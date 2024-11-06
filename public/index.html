@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Shaik Peera - User Interface Designer</title>
+<meta charset="utf-8" />
+<link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta
+  name="description"
+  content="User Interface Designer, Web Designer, Web Developer,  eCommerce Frontend Developer. Passionate about user interface designing, developing, and helping brands scalability"
+/>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://flackr.github.io/scroll-timeline/dist/scroll-timeline.js"></script>
+
+<style>
+.slideUp {
+    animation: 1s fade-out linear;
+    animation-timeline: view();
+}
+
+@keyframes fade-out {
+    0% {opacity: 0;}
+    35%, 65% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+/* left right scroll on page scroll*/
+.scroller ul {
+    display: flex;
+    list-style: none;
+}
+
+.scroller li {
+    background: var(--grey-dark);
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 0 10px;
+}
+
+.scroller[data-animated="true"] {
+    overflow: hidden;
+}
+
+.scroller[data-animated="true"] .scroller-inner {
+    width: max-content;
+    display: flex;
+    justify-content: space-evenly;
+    white-space: nowrap;
+    animation: 1s scrolling linear;
+    animation-timeline: scroll(root);
+}
+
+.scroller[data-direction="right"] .scroller-inner {
+    flex-direction: row-reverse;
+    animation-direction: reverse;
+}
+
+@keyframes scrolling {
+    to {
+        transform: translate(calc(-20% - 0.5rem));
+    }
+}
+</style>
+
+<script type="text/javascript">
+window.addEventListener('load', function() {
+  "use strict";
+
+  //copyright year
+  let date = new Date();
+  let year = date.getFullYear();
+  document.getElementById('date').innerHTML = year;
+
+  //right click disbaled
+  //document.addEventListener('contextmenu', event => event.preventDefault());
+  
+  //smooth back to top
+  window.addEventListener('scroll', e => {
+    const btnScrollToTop = document.querySelector(".back-to-top");
+    btnScrollToTop.addEventListener("click", e => {
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: "smooth"
+        });
+    });
+    btnScrollToTop.style.display = window.scrollY > 20 ? 'inline-block' : 'none';
+  });
+
+});
+
+$(document).ready(function() {
+  $('.nav-link').click(function() {
+    $('.navToggle input').prop('checked', false);
+  });
+});
+</script>
+
+</head>
+<body>
+    <div id="root"></div>
+</body>
+</html>
