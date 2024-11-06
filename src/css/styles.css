@@ -1204,3 +1204,30 @@ iframe {
         right: 50px;
     }
 }
+
+.alert-success {
+    background: var(--green);
+}
+
+.alert {
+    display: none;
+    font-size: 13px;
+    line-height: 18px;
+    position: fixed;
+    top: 10%;
+    right: 20px;
+    width: 250px;
+    animation: .5s slide-in linear;
+}
+
+@keyframes slide-in {
+    from {
+        right: -100%;
+        opacity: 0;
+    }
+
+    to {
+        right: 0;
+        opacity: 1;
+    }
+}
