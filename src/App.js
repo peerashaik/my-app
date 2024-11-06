@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 import Home from './components/Home';
 import About from './components/About';
 import Skills from './components/Skills';
-import Patrons from './components/Patrons';
+import Experience from './components/Experience';
 import Works from './components/Works';
 import Contact from './components/Contact';
 import Error from './components/Error';
@@ -18,7 +18,7 @@ const App = () => {
       <Route exact path="/" component={Home} />
       <Route path="/about" component={About} />
       <Route path="/skills" component={Skills} />
-      <Route path="/patrons" component={Patrons} />
+      <Route path="/experience" component={Experience} />
       <Route path="/works" component={Works} />
       <Route path="/contact" component={Contact} />
       <Route component={Error} />
