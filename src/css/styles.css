@@ -992,7 +992,7 @@ iframe {
 }
 
 .employer-list li i.num {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(168, 168, 168, 1) 100%);
+    background: linear-gradient(180deg, rgba(0, 0, 0, .7) 0%, rgba(168, 168, 168, .7) 100%);
     border: 1px solid var(--white);
     border-top: 0;
     border-right: 0;
@@ -1000,6 +1000,7 @@ iframe {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'heliosextbold';
     font-size: 36px;
     margin: 0;
     position: absolute;
@@ -1007,7 +1008,6 @@ iframe {
     right: 0;
     width: 54px;
     height: 54px;
-    opacity: 0.5;
 
 }
 
