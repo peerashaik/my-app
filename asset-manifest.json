@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.1843b6fd.css",
+    "main.css": "/my-app/static/css/main.f1151b6b.css",
     "main.js": "/my-app/static/js/main.e7748ef6.js",
     "static/media/hero-banner1.jpg": "/my-app/static/media/hero-banner1.5a8b88489e5a0b8194ca.jpg",
     "static/media/magna.png": "/my-app/static/media/magna.9ce108afb7c367cf55f1.png",
@@ -13,11 +13,11 @@
     "static/media/heliosext.woff2": "/my-app/static/media/heliosext.96a983bcc1b10b32069b.woff2",
     "static/media/heliosext-bold.woff2": "/my-app/static/media/heliosext-bold.a3e735bb5a41278580d8.woff2",
     "index.html": "/my-app/index.html",
-    "main.1843b6fd.css.map": "/my-app/static/css/main.1843b6fd.css.map",
+    "main.f1151b6b.css.map": "/my-app/static/css/main.f1151b6b.css.map",
     "main.e7748ef6.js.map": "/my-app/static/js/main.e7748ef6.js.map"
   },
   "entrypoints": [
-    "static/css/main.1843b6fd.css",
+    "static/css/main.f1151b6b.css",
     "static/js/main.e7748ef6.js"
   ]
 }
