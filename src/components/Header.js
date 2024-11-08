@@ -16,19 +16,19 @@ function Header() {
       <span></span>
       <ul class="menu">
         <li>
-            <NavLink to="/about" className="nav-link">ABOUT</NavLink>
+            <NavLink to="/about" className="nav-link">About</NavLink>
         </li>
         <li>
-            <NavLink to="/skills" className="nav-link">SKILLS</NavLink>
+            <NavLink to="/skills" className="nav-link">Skills</NavLink>
         </li>
         <li>
-            <NavLink to="/experience" className="nav-link">EXPERIENCE</NavLink>
+            <NavLink to="/experience" className="nav-link">Experience</NavLink>
         </li>
         <li>
-            <NavLink to="/works" className="nav-link">WORKS</NavLink>
+            <NavLink to="/works" className="nav-link">Works</NavLink>
         </li>
         <li>
-            <NavLink to="/contact" className="nav-link">CONTACT</NavLink>
+            <NavLink to="/contact" className="nav-link">Contact</NavLink>
         </li>
       </ul>
     </div>

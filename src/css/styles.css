@@ -432,8 +432,9 @@ iframe {
 .menu .nav-link {
     color: var(--white);
     display: inline-block;
-    margin: 0 20px;
-    padding: 0 6px;
+    font-size: 42px;
+    margin: 10px 0;
+    padding: 0 15px;
     position: relative;
 }
 
@@ -1088,7 +1089,7 @@ iframe {
     }
 
     .menu {
-        width: 500px;
+        width: 50%;
     }
 
     .container {
