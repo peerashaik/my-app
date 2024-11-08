@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
+import './css/hero-banner.css';
 import { HashRouter } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
 

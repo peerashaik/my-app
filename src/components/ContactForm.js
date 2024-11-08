@@ -1,6 +1,31 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import $ from 'jquery'; 
+import $ from 'jquery';
+import styled from 'styled-components';
+
+const Alert = styled.div`
+  display: none;
+  boder: 0;
+  background: var(--green);
+  font-size: 13px;
+  line-height: 18px;
+  position: fixed;
+  top: 10%;
+  right: 20px;
+  width: 250px;
+  animation: .5s slide-in linear;
+  @keyframes slide-in {
+    from {
+        right: -100%;
+        opacity: 0;
+    }
+
+    to {
+        right: 0;
+        opacity: 1;
+    }
+  }
+`;
 
 export const ContactForm = () => {
   const form = useRef();
@@ -19,8 +44,8 @@ export const ContactForm = () => {
         () => {
           const success = document.getElementById('success');
           success.innerHTML += 'Thank you for your valueable time! You have submitted the form successfully!';
-          $('#success').show();
-          setTimeout(function() { $('#success').hide(); }, 6000);
+          $('.alert-success').show();
+          setTimeout(function() { $('.alert-success').hide(); }, 6000);
         },
         (error) => {
           alert('Failed to submit your information!');
@@ -31,7 +56,7 @@ export const ContactForm = () => {
   return (
     <>
     <form ref={form} onSubmit={sendEmail}>
-      <div id="success" className="alert alert-success" role="alert"></div>
+      <Alert id="success" className="alert alert-success" role="alert"></Alert>
       <div className="mb-3">
         <label htmlFor="fullname" className="form-label">Name</label>
         <input type="text" name="user_name" id="fullname" className="form-control" placeholder="Enter your name" required />
