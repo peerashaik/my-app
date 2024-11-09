@@ -85,7 +85,7 @@ const Home = () => {
     </div>
 
     <div className="slideUp">
-    <div className="color-bg blue py-8">
+    <div className="color-bg green py-8">
       <blockquote className="container text-center">
         <h3 className="text-white mb-3"><strong>Clients trust in Quality</strong></h3>
         <div className="fill-white shape-right-slant"></div>

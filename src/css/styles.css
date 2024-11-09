@@ -8,20 +8,15 @@
     --grey: #999;
     --grey-light: #e5e5e5;
     --grey-light2: #e2e2e2;
-    --blue: #2cd2f0;
+    --blue: #08C2FF;
     --light-blue: #eaeff5;
-    --navy-blue: #4668ed;
-    --red: #ee4d4d;
-    --red-light: #950000;
-    --yellow: #ba8800;
-    --yellow-light: #fff500;
-    --water: #00aecd;
+    --navy-blue: #4F75FF;
+    --red: #C62E2E;
+    --yellow: #F3C623;
+    --water: #08C2FF;
     --green: #0ed08a;
-    --pink: #ffb2c5;
-    --pink-dark: #f02c64;
-    --pink-dark2: #f5d5dd;
-    --pink-light: #fef0f4;
-    --purple: #cb6be6;
+    --pink: #CC2B52;
+    --purple: #7A1CAC;
 }
 
 @font-face {
@@ -104,7 +99,7 @@ img {
 
 
 a {
-    color: var(--pink-dark);
+    color: var(--pink);
     text-decoration: none;
 }
 
@@ -146,8 +141,8 @@ iframe {
 }
 
 .btn-primary {
-    background-color: var(--pink-dark);
-    border-color: var(--pink-dark);
+    background-color: var(--pink);
+    border-color: var(--pink);
     color: var(--white);
 }
 
@@ -215,7 +210,7 @@ iframe {
 
 /*colors*/
 .color-darkpink {
-    color: var(--pink-dark);
+    color: var(--pink);
 }
 
 .text-black {
@@ -243,7 +238,7 @@ iframe {
 }
 
 .text-yellow {
-    color: var(--yellow-light);
+    color: var(--yellow);
 }
 
 .text-water {
@@ -256,7 +251,7 @@ iframe {
 }
 
 .color-bg.red {
-    background-color: var(--red-light);
+    background-color: var(--red);
 }
 
 .color-bg.green {
@@ -364,7 +359,7 @@ iframe {
      transition: color 0.3s ease;
 }
 .navToggle a:hover {
-     color: var(--pink-dark);
+     color: var(--pink);
 }
 .navToggle input {
      display: block;
@@ -463,8 +458,8 @@ iframe {
 .menu .nav-link:before {
     left: 0;
     top: 0;
-    border-left: 3px solid var(--pink-dark);
-    border-top: 3px solid var(--pink-dark);
+    border-left: 3px solid var(--pink);
+    border-top: 3px solid var(--pink);
     -webkit-transform: translate(100%, 50%);
     transform: translate(100%, 50%);
 }
@@ -472,8 +467,8 @@ iframe {
 .menu .nav-link:after {
     right: 0;
     bottom: 0;
-    border-right: 3px solid var(--pink-dark);
-    border-bottom: 3px solid var(--pink-dark);
+    border-right: 3px solid var(--pink);
+    border-bottom: 3px solid var(--pink);
     -webkit-transform: translate(-100%, -50%);
     transform: translate(-100%, -50%);
 }
@@ -524,11 +519,11 @@ iframe {
 }
 
 .footer .nav .nav-link.active {
-    color: var(--pink-dark);
+    color: var(--pink);
 }
 
 .footer .nav.social .link {
-    color: var(--pink-dark);
+    color: var(--pink);
     font-size: 14px;
     margin-right: 20px;
 }
@@ -564,14 +559,14 @@ iframe {
 }
 
 .link:is(:hover, :focus) {
-    color: var(--pink-dark);
+    color: var(--pink);
     text-decoration: none;
 }
 
 .link:before,
 .link:after {
     content: "";
-    background-color: var(--pink-dark);
+    background-color: var(--pink);
     display: block;
     -webkit-transition: all 0.55s ease;
     transition: all 0.55s ease;
@@ -738,7 +733,7 @@ iframe {
 }
 
 .card:hover i {
-    background: var(--pink-dark);
+    background: var(--pink);
     color: var(--white);
 }
 
@@ -828,7 +823,7 @@ iframe {
 .my-work-list .img-wrapper:focus i {
     border: 50px solid var(--black);
     outline-style: dotted;
-    outline-color: var(--pink-dark);
+    outline-color: var(--pink);
     transition: all 0.35s ease;
     transform: rotate(90deg);
     opacity: .5;
@@ -871,8 +866,8 @@ iframe {
 .my-work-list .item h2 a:before {
     right: -15px;
     top: 2px;
-    border-left: 3px solid var(--pink-dark);
-    border-top: 3px solid var(--pink-dark);
+    border-left: 3px solid var(--pink);
+    border-top: 3px solid var(--pink);
     -webkit-transform: translate(100%, 50%);
     transform: translate(100%, 50%);
 }
@@ -880,8 +875,8 @@ iframe {
 .my-work-list .item h2 a:after {
     right: -20px;
     bottom: 2px;
-    border-right: 3px solid var(--pink-dark);
-    border-bottom: 3px solid var(--pink-dark);
+    border-right: 3px solid var(--pink);
+    border-bottom: 3px solid var(--pink);
     -webkit-transform: translate(-100%, -50%);
     transform: translate(-100%, -50%);
 }
@@ -968,7 +963,7 @@ iframe {
 }
 
 .contact h5 {
-    color: var(--pink-dark);
+    color: var(--pink);
 }
 
 .contact i {
@@ -989,7 +984,7 @@ iframe {
 }
 
 .back-to-top:hover i {
-    color: var(--pink-dark);
+    color: var(--pink);
 }
 
 .website-counter {
