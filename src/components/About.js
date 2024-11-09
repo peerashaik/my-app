@@ -5,10 +5,6 @@ import ToggleSwitch from './ToggleSwitch';
 const About = () => {
   return (
     <>
-    <React.Fragment>
-      <ToggleSwitch label="Notifications" />
-      <ToggleSwitch label="Subscribe" />
-    </React.Fragment>
     <div className="hero-banner about">
       <div className="headings">
         <h2 className=" text-center">A DESIGN THINK?<br/><span className="text-red ms-2">THINK</span> ME!</h2>
