@@ -9,12 +9,12 @@ function Header() {
       <p className="small m-0">DESIGN <span>|</span> DEVELOP <span>|</span> TECHY <span>|</span> MENTOR</p>
     </div>
 
-    <div class="navToggle">
+    <div className="navToggle">
       <input type="checkbox" />
       <span></span>
       <span></span>
       <span></span>
-      <ul class="menu">
+      <ul className="menu">
         <li>
             <NavLink to="/about" className="nav-link">About</NavLink>
         </li>

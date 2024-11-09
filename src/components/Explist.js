@@ -53,7 +53,7 @@ export const expData = [
 
 export default function ExpList() {
   const listItems = expData.map(exp =>
-    <li className="shadow slideUp" id={exp.id}><i className='num bi bi-square'>{exp.id}</i>
+    <li className="shadow slideUp" key={exp.id}><i className='num bi bi-square'>{exp.id}</i>
       <h3><strong>{exp.company}</strong> <span className="tenure">{exp.location}, {exp.tenure}</span></h3>
       <p><i className="bi bi-record-circle-fill"></i><strong>Designation:</strong> {exp.designation}</p>
       <p><i className="bi bi-record-circle-fill"></i><strong>Roles & Responsibilties:</strong> {exp.shortdesc}</p>
