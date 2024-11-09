@@ -524,6 +524,7 @@ iframe {
 
 .footer .nav.social .link {
     color: var(--pink);
+    cursor: pointer;
     font-size: 14px;
     margin-right: 20px;
 }

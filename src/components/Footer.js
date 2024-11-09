@@ -2,6 +2,17 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 const Footer = (props) => {
+  const onButtonClick = () => {
+    fetch("Certified-Magento2-Frontend-Developer-PeeraShaik.pdf").then((response) => {
+      response.blob().then((blob) => {
+        const fileURL = window.URL.createObjectURL(blob);
+        let alink = document.createElement("a");
+        alink.href = fileURL;
+        alink.download = "Certified-Magento2-Frontend-Developer-PeeraShaik.pdf";
+        alink.click();
+      });
+    });
+  };
   return (
     <>
     <footer className="footer">
@@ -14,7 +25,9 @@ const Footer = (props) => {
           <li className="nav-item"><NavLink to="/contact" className="nav-link link">Contact</NavLink></li>
         </ul>
         <ul className="nav social">
-          <li><a className="link" href="Certified-Magento2-Frontend-Developer-PeeraShaik.pdf" download="Certified-Magento2-Frontend-Developer-PeeraShaik.pdf">Download - RESUME</a></li>
+          <li>
+            <a className="link" onClick={onButtonClick}>Download - RESUME</a>
+          </li>
           <li className="ms-2">
             <a href="https://www.facebook.com/peera.shaik" target="_blank" rel="noreferrer"><i className="bi bi-facebook"></i></a>
           </li>
