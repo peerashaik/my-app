@@ -11,7 +11,7 @@ const Skills = () => {
           <div className="card shadow-sm text-center">
               <NavLink to="/" className="icon"><i className="bi bi-layout-wtf"></i></NavLink>
               <h4>User Interface Design</h4>
-              <p>Clarity, Consistency, Feedback, Efficiency, Aesthetics, Accessibility, User-Centered Design will help Creating visually appealing and user-friendly interfaces.</p>
+              <p>Clarity, Consistency, Feedback, Efficiency, Aesthetics, Accessibility, User-Centered Design will help creating visually appealing and user-friendly interfaces.</p>
               <NavLink to="/works">Learn More <span className="bi bi-chevron-right"></span></NavLink>
           </div>
           <div className="card shadow-sm text-center">
@@ -23,7 +23,7 @@ const Skills = () => {
           <div className="card shadow-sm text-center">
               <NavLink to="/" className="icon"><i className="bi bi-globe"></i></NavLink>
               <h4>Web Development</h4>
-              <p>It encompasses several aspects, including web design, web content development, client-side & server-side scripting, and network security configuration.</p>
+              <p>This encompasses several aspects, including web design, web content development, client-side & server-side scripting, and network security configuration.</p>
               <NavLink to="/works">Learn More <span className="bi bi-chevron-right"></span></NavLink>
           </div>
         </div>

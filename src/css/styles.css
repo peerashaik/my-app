@@ -11,11 +11,11 @@
     --blue: #2cd2f0;
     --light-blue: #eaeff5;
     --navy-blue: #4668ed;
-    --red: #f02d2d;
-    --red-light: #ee4d4d;
-    --yellow: #f1d71a;
+    --red: #ee4d4d;
+    --red-light: #950000;
+    --yellow: #ba8800;
     --yellow-light: #fff500;
-    --water: #40cea7;
+    --water: #00aecd;
     --green: #0ed08a;
     --pink: #ffb2c5;
     --pink-dark: #f02c64;
@@ -135,6 +135,7 @@ iframe {
 .btn {
     border-radius: 2px;
     padding: 15px 40px;
+    min-width: 250px;
     transition: all .9s ease;
     position: relative;
     z-index: 1;

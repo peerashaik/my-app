@@ -20,7 +20,7 @@ const Home = () => {
       <div className="row slideUp">
         <div className="text-center my-3 px-10">
           <p className="text-grey">I am <span className="text-white">Peera Shaik</span>, passionate user interface designer and creative <span className="text-white">Web, App &amp; Brand</span> designer.</p>
-          <HeadText>SOLID 20 YEARS<br /> OF EXPERIENCE</HeadText>
+          <HeadText>SOLID 21 YEARS<br /> OF EXPERIENCE</HeadText>
           <p>Let's build a client Satisfactory - <NavLink className="link" to="/contact">CONTACT</NavLink></p>
         </div>
       </div>
@@ -85,7 +85,7 @@ const Home = () => {
     </div>
 
     <div className="slideUp">
-    <div className="color-bg water py-8">
+    <div className="color-bg blue py-8">
       <blockquote className="container text-center">
         <h3 className="text-white mb-3"><strong>Clients trust in Quality</strong></h3>
         <div className="fill-white shape-right-slant"></div>

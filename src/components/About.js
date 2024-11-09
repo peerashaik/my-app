@@ -6,7 +6,7 @@ const About = () => {
     <>
     <div className="hero-banner about">
       <div className="headings">
-        <h2 className=" text-center">A DESIGN THINK?<br/><span className="text-red ms-2">THINK</span> ME!</h2>
+        <h2 className=" text-center">A DESIGN THINK?<br/><span className="text-yellow ms-2">THINK</span> ME!</h2>
       </div>
       <div className="overlay"></div>
       <div className="pic"></div>
@@ -24,7 +24,7 @@ const About = () => {
     <div className="slideUp">
       <div className="container my-10">
         <div className="blockquote text-center">
-          <h2 className="content-heading text-center text-uppercase mb-3"><strong><span className="text-water">Find</span> Me!</strong> <i className="bi bi-bar-chart-fill"></i></h2>
+          <h2 className="content-heading text-center text-uppercase mb-3"><strong><span className="text-yellow">Find</span> Me!</strong> <i className="bi bi-bar-chart-fill"></i></h2>
           <p className="px-10">It’s great to have some downtime! Passionate for web design and development, I might enjoy activities that both relax and inspire me.</p>
         </div>
 
