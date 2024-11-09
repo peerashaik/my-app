@@ -57,7 +57,7 @@ h5,
 h6 {
     color: var(--white);
     font-family: 'heliosextbold';
-    font-weight: normal;
+    font-weight: 600;
     margin: 20px 0;
 }
 
@@ -223,6 +223,10 @@ iframe {
 
 .text-white {
     color: var(--white);
+}
+
+.text-grey {
+    color: var(--grey);
 }
 
 .text-green {

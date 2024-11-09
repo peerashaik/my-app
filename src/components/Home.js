@@ -1,6 +1,17 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import Button from './Button';
+import styled from 'styled-components';
+
+const HeadText = styled.h2`
+  font-size: 44px;
+  line-height: 42px;
+  margin: 30px 0;
+  @media (min-width: 768px) {
+    font-size: 90px;
+    line-height: 82px;
+  }
+`;
 
 const Home = () => {
   return (
@@ -8,9 +19,8 @@ const Home = () => {
     <div className="container">
       <div className="row slideUp">
         <div className="text-center my-3 px-10">
-          <p>Hi, I’m Peera Shaik, passionate about user interface designing, developing a wide range of web applications. Skills include user interface design, web design, web development, e-commerce frontend development, social media design, SEO and more.</p>
-          <p>I’m an interactive producer, product designer and software developer with a broad range of skills and expertise in all user interface design related fields.</p>
-          <p>I'm tend to stay with current design trends and constantly challenge myself to learn more tools and technologies.</p>
+          <p className="text-grey">I am <span className="text-white">Peera Shaik</span>, passionate user interface designer and creative <span className="text-white">Web, App &amp; Brand</span> designer.</p>
+          <HeadText>SOLID 20 YEARS<br /> OF EXPERIENCE</HeadText>
           <p>Let's build a client Satisfactory - <NavLink className="link" to="/contact">CONTACT</NavLink></p>
         </div>
       </div>
