@@ -43,7 +43,7 @@ export const ContactForm = () => {
       .then(
         () => {
           const success = document.getElementById('success');
-          success.innerHTML += 'Thank you for your valueable time! You have submitted the form successfully!';
+          success.innerHTML += 'Thank you for your valuable time! You have submitted the form successfully!';
           $('.alert-success').show();
           setTimeout(function() { $('.alert-success').hide(); }, 6000);
         },
