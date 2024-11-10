@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.c61ceae8.css",
-    "main.js": "/my-app/static/js/main.58077181.js",
+    "main.css": "/my-app/static/css/main.a211a7e7.css",
+    "main.js": "/my-app/static/js/main.2f7eec4b.js",
     "static/media/hero-banner1.jpg": "/my-app/static/media/hero-banner1.5a8b88489e5a0b8194ca.jpg",
     "static/media/magna.png": "/my-app/static/media/magna.9ce108afb7c367cf55f1.png",
     "static/media/hero-banner5.jpg": "/my-app/static/media/hero-banner5.622008656a089d82d8df.jpg",
@@ -13,11 +13,11 @@
     "static/media/heliosext.woff2": "/my-app/static/media/heliosext.96a983bcc1b10b32069b.woff2",
     "static/media/heliosext-bold.woff2": "/my-app/static/media/heliosext-bold.a3e735bb5a41278580d8.woff2",
     "index.html": "/my-app/index.html",
-    "main.c61ceae8.css.map": "/my-app/static/css/main.c61ceae8.css.map",
-    "main.58077181.js.map": "/my-app/static/js/main.58077181.js.map"
+    "main.a211a7e7.css.map": "/my-app/static/css/main.a211a7e7.css.map",
+    "main.2f7eec4b.js.map": "/my-app/static/js/main.2f7eec4b.js.map"
   },
   "entrypoints": [
-    "static/css/main.c61ceae8.css",
-    "static/js/main.58077181.js"
+    "static/css/main.a211a7e7.css",
+    "static/js/main.2f7eec4b.js"
   ]
 }
