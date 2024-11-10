@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import FadeInSection from './FadeInSection';
 import Button from './Button';
 import styled from 'styled-components';
 
@@ -16,8 +17,9 @@ const HeadText = styled.h2`
 const Home = () => {
   return (
     <>
+    <FadeInSection>
     <div className="container">
-      <div className="row slideUp">
+      <div className="row">
         <div className="text-center my-3 px-10">
           <p className="text-grey">I am <span className="text-white">Peera Shaik</span>, passionate user interface designer and creative <span className="text-white">Web, App &amp; Brand</span> designer.</p>
           <HeadText>SOLID 21 YEARS<br /> OF EXPERIENCE</HeadText>
@@ -25,8 +27,9 @@ const Home = () => {
         </div>
       </div>
     </div>
+    </FadeInSection>
 
-    <div className="banners mt-5 slideUp">
+    <div className="banners mt-5">
       <div className="color-bg red">
         <div>
         <h2><span className="text-black">User<br/>Interface</span><br/><span className="text-white">Design</span></h2>
@@ -53,7 +56,7 @@ const Home = () => {
       </div>
     </div>
 
-    <div className="slideUp">
+    <FadeInSection>
     <div className="container">
       <div className="blockquote text-center my-10">
         <h2 className="content-heading text-center text-uppercase mb-3"><strong><span className="text-yellow">Pixel Perfect</span> Wins</strong></h2>
@@ -61,7 +64,9 @@ const Home = () => {
         <Button btnlink='skills' btnstyle='btn-primary' label='DESIGN THEME-ING' />
       </div>
     </div>
+    </FadeInSection>
 
+    <FadeInSection>
     <div className="container my-10 py-5">
       <div className="my-work-list">
         
@@ -82,9 +87,9 @@ const Home = () => {
 
       </div>
     </div>
-    </div>
+    </FadeInSection>
 
-    <div className="slideUp">
+    <FadeInSection>
     <div className="color-bg green py-8">
       <blockquote className="container text-center">
         <h3 className="text-white mb-3"><strong>Clients trust in Quality</strong></h3>
@@ -94,7 +99,9 @@ const Home = () => {
       </blockquote>
       <div className="slant light-blue"></div>
     </div>
+    </FadeInSection>
 
+    <FadeInSection>
     <div className="cards empty py-5 mb-5">
       <div className="container">
         <div className="card shadow text-center">
@@ -111,8 +118,9 @@ const Home = () => {
         </div>
       </div>
     </div>
-    </div>
+    </FadeInSection>
 
+    <FadeInSection>
     <div className="my-10">
     <div className="container">
       <div className="scroller"data-animated="true">
@@ -147,8 +155,10 @@ const Home = () => {
       </div>
     </div>
     </div>
+    </FadeInSection>
 
-    <div className="container key-skills slideUp">
+    <FadeInSection>
+    <div className="container key-skills">
       <div className="my-10">
       <div className="row">
         <h2 className="text-center">A journey of Commitment towards a learning process!</h2>
@@ -178,6 +188,7 @@ const Home = () => {
       </div>
       </div>
     </div>
+    </FadeInSection>
     </>
   );
 }

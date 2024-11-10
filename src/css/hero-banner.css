@@ -4,11 +4,6 @@
     min-height: 100vh;
 }
 
-.hero-banner.contact {
-    height: 100vh;
-    max-height: 100vh;
-}
-
 .hero-banner .pic {
     background-repeat: no-repeat;
     background-size: cover;
@@ -112,5 +107,13 @@
 
     .hero-banner h5 {
         font-size: 30px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .hero-banner {
+        position: relative;
+        max-height: 1000px;
+        min-height: 1000px;
     }
 }

@@ -1,12 +1,14 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import FadeInSection from './FadeInSection';
 import Button from './Button';
 
 const Skills = () => {
   return (
     <>
     <div className="content">
-      <div className="cards py-10 slideUp">
+      <FadeInSection>
+      <div className="cards py-10">
         <div className="container">
           <div className="card shadow-sm text-center">
               <NavLink to="/" className="icon"><i className="bi bi-layout-wtf"></i></NavLink>
@@ -28,8 +30,10 @@ const Skills = () => {
           </div>
         </div>
       </div>
+      </FadeInSection>
 
-      <div className="hero-banner skills mb-5 slideUp">
+      <FadeInSection>
+      <div className="hero-banner skills mb-5">
         <div className="headings">
           <h2 className="text-center">USER INTERFACE DESIGN</h2>
           <h3 className="text-center">WEB DEVELOPMENT</h3>
@@ -39,8 +43,10 @@ const Skills = () => {
         <div className="overlay"></div>
         <div className="pic"></div>
       </div>
+      </FadeInSection>
 
-      <div className="container slideUp">
+      <FadeInSection>
+      <div className="container">
         <div className="blockquote text-center my-10 px-10">
           <h2 className="mb-3 text-center text-uppercase"><strong>Around the world <br />the most <span className="text-blue">innovative</span></strong></h2>
           <p>Throughout my 21 years of experience in design & creative field I have been providing innovative and unique design approaches using the latest technologies.</p>
@@ -48,10 +54,12 @@ const Skills = () => {
           <Button btnlink='contact' btnstyle='btn-primary' label='CONTACT' />
         </div>
       </div>
+      </FadeInSection>
 
     </div>
 
-    <div className="color-bg blue py-8 slideUp">
+    <FadeInSection>
+    <div className="color-bg blue py-8">
       <div className="container text-center">
         <h3 className="text-white text-uppercase mb-3"><strong>Consistency . Excellence</strong></h3>
         <p className="text-white px-10">
@@ -60,6 +68,7 @@ const Skills = () => {
       </div>
       <div className="slant black top"></div>
     </div>
+    </FadeInSection>
     </>
   );
 }

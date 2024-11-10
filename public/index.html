@@ -15,17 +15,6 @@
 <script src="https://flackr.github.io/scroll-timeline/dist/scroll-timeline.js"></script>
 
 <style>
-.slideUp {
-    animation: 1s fade-out linear;
-    animation-timeline: view();
-}
-
-@keyframes fade-out {
-    0% {opacity: 0;}
-    40%, 60% {opacity: 1;}
-    100% {opacity: 0;}
-}
-
 /* left right scroll on page scroll*/
 .scroller ul {
     display: flex;
@@ -74,7 +63,7 @@ window.addEventListener('load', function() {
   document.getElementById('date').innerHTML = year;
 
   //right click disbaled
-  document.addEventListener('contextmenu', event => event.preventDefault());
+  //document.addEventListener('contextmenu', event => event.preventDefault());
   
   //smooth back to top
   window.addEventListener('scroll', e => {

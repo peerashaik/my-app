@@ -280,18 +280,18 @@ iframe {
 
 .slant {
     width: 104%;
-    height: 75px;
-    transform: rotate(1.8deg);
+    height: 100px;
+    transform: rotate(1.6deg);
     position: absolute;
     left: -5px;
     right: 0;
-    bottom: -25px;
+    bottom: -50px;
     z-index: 0;
 }
 
 .slant.light-blue {
     background: var(--light-blue);
-    transform: rotate(-1.8deg);
+    transform: rotate(-1.6deg);
 }
 
 .slant.black {
@@ -300,7 +300,8 @@ iframe {
 
 .slant.black.top {
     background: var(--black);
-    top: -25px;
+    bottom: inherit;
+    top: -50px;
 }
 
 /*margins, paddings*/
