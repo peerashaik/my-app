@@ -8,7 +8,6 @@ import Skills from './components/Skills';
 import Experience from './components/Experience';
 import Works from './components/Works';
 import Contact from './components/Contact';
-import Error from './components/Error';
 
 const App = () => {
   return (
