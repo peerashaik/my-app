@@ -5,7 +5,7 @@ export const expData = [
     "location": "Bangalore",
     "tenure": "Dec 2022 - June 2024",
     "designation": "Project Manager, Senior Magento2 Frontend Developer",
-    "shortdesc": "Worked as a senior adobe commerce cloud Magento2 frontend developer and a partial role as associate project manager from frontend perspective for Schneider in-house product. Schneider Electric is developing its own product in B2B and B2C multilingual e-commerce marketplace across the globe. It has multi-store websites for its various products based on their region's sales."
+    "shortdesc": "Worked as a senior adobe commerce cloud Magento2 frontend developer for Schneider Electric and part of their B2B and B2C in-house product development which is a multilingual e-commerce marketplace across the globe. It has multi-store websites for its various products based on their region's sales."
   },{
     "id": 6,
     "company": "PushON - Wings Group of Companies",

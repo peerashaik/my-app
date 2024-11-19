@@ -8,6 +8,7 @@ const HeadText = styled.h2`
   font-size: 44px;
   line-height: 42px;
   margin: 30px 0;
+
   @media (min-width: 768px) {
     font-size: 90px;
     line-height: 82px;
