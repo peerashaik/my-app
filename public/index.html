@@ -14,45 +14,6 @@
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://flackr.github.io/scroll-timeline/dist/scroll-timeline.js"></script>
 
-<style>
-/* left right scroll on page scroll*/
-.scroller ul {
-    display: flex;
-    list-style: none;
-}
-
-.scroller li {
-    background: var(--grey-dark);
-    border-radius: 10px;
-    padding: 10px 20px;
-    margin: 0 10px;
-}
-
-.scroller[data-animated="true"] {
-    overflow: hidden;
-}
-
-.scroller[data-animated="true"] .scroller-inner {
-    width: max-content;
-    display: flex;
-    justify-content: space-evenly;
-    white-space: nowrap;
-    animation: 1s scrolling linear;
-    animation-timeline: scroll(root);
-}
-
-.scroller[data-direction="right"] .scroller-inner {
-    flex-direction: row-reverse;
-    animation-direction: reverse;
-}
-
-@keyframes scrolling {
-    to {
-        transform: translate(calc(-20% - 0.5rem));
-    }
-}
-</style>
-
 <script type="text/javascript">
 window.addEventListener('load', function() {
   "use strict";
@@ -63,7 +24,7 @@ window.addEventListener('load', function() {
   document.getElementById('date').innerHTML = year;
 
   //right click disbaled
-  //document.addEventListener('contextmenu', event => event.preventDefault());
+  document.addEventListener('contextmenu', event => event.preventDefault());
   
   //smooth back to top
   window.addEventListener('scroll', e => {
@@ -88,7 +49,8 @@ $(document).ready(function() {
 </script>
 
 </head>
-<!-- Google tag (gtag.js) -->
+
+<!-- Google Analytics tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-BMDM3F7J6B"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -97,6 +59,7 @@ $(document).ready(function() {
 
   gtag('config', 'G-BMDM3F7J6B');
 </script>
+
 <body>
     <div id="root"></div>
 </body>

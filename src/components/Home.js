@@ -15,6 +15,45 @@ const HeadText = styled.h2`
   }
 `;
 
+/* left right scroll on page scroll*/
+const LRScroller = styled.div`
+  ul {
+    display: flex;
+    list-style: none;
+  }
+
+  li {
+    background: var(--grey-dark);
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 0 10px;
+  }
+
+  &[data-animated="true"] {
+    overflow: hidden;
+  }
+
+  &[data-animated="true"] .scroller-inner {
+    width: max-content;
+    display: flex;
+    justify-content: space-evenly;
+    white-space: nowrap;
+    animation: 1s scrolling linear;
+    animation-timeline: scroll(root);
+  }
+
+  &[data-direction="right"] .scroller-inner {
+    flex-direction: row-reverse;
+    animation-direction: reverse;
+  }
+
+  @keyframes scrolling {
+    to {
+        transform: translate(calc(-20% - 0.5rem));
+    }
+  }
+`;
+
 const Home = () => {
   return (
     <>
@@ -93,16 +132,14 @@ const Home = () => {
     <FadeInSection>
     <div className="color-bg green py-8">
       <blockquote className="container text-center">
-        <h3 className="text-white mb-3"><strong>Clients trust in Quality</strong></h3>
+        <h3 className="text-white mb-3"><strong>CLIENTS TRUST IN QUALITY</strong></h3>
         <div className="fill-white shape-right-slant"></div>
         <p className="text-white px-10">Having received over 100 esteemed, industry leading accolades my client work has consistently achieved excellence and innovation in the ever-evolving world of digital design. These recognitions not only affirm my commitment to pushing creative boundaries but also underscore the unwavering dedication to delivering cutting-edge solutions.</p>
         <Button btnlink='works' btnstyle='btn-outline' label='VIEW RECENT WORKS' />
       </blockquote>
       <div className="slant light-blue"></div>
     </div>
-    </FadeInSection>
 
-    <FadeInSection>
     <div className="cards empty py-5 mb-5">
       <div className="container">
         <div className="card shadow text-center">
@@ -124,7 +161,7 @@ const Home = () => {
     <FadeInSection>
     <div className="my-10">
     <div className="container">
-      <div className="scroller"data-animated="true">
+      <LRScroller data-animated="true">
         <ul className="scroller-inner">
           <li>UI/UX</li>
           <li>HTML</li>
@@ -138,8 +175,8 @@ const Home = () => {
           <li>SSG</li>
           <li>WEBDEV</li>
         </ul>
-      </div>
-      <div className="scroller" data-animated="true" data-direction="right">
+      </LRScroller>
+      <LRScroller data-animated="true" data-direction="right">
         <ul className="scroller-inner">
           <li>UI/UX</li>
           <li>HTML</li>
@@ -153,7 +190,7 @@ const Home = () => {
           <li>SSG</li>
           <li>WEBDEV</li>
         </ul>
-      </div>
+      </LRScroller>
     </div>
     </div>
     </FadeInSection>
@@ -172,7 +209,7 @@ const Home = () => {
             <li><i className="bi bi-record-circle-fill"></i><strong>Bootstrap:</strong> Familiar with the Bootstrap framework for building responsive and consistent UI components.</li>
             <li><i className="bi bi-record-circle-fill"></i><strong>Tailwind CSS:</strong> Expereinced at a utility-first CSS framework for building raid user interfaces.</li>
             <li><i className="bi bi-record-circle-fill"></i><strong>JavaScript and jQuery:</strong> Proficient in enhancing frontend functionality through dynamic scripting and interactivity.</li>
-            <li><i className="bi bi-record-circle-fill"></i><strong>React SPA:</strong> Mid-level expertise in developing cross-browser single page applications and mobile friendly user centred applications using ReactJS.</li>
+            <li><i className="bi bi-record-circle-fill"></i><strong>React JS:</strong> Expertise in developing cross-browser Single Page Applications and mobile friendly user centred applications using React JS.</li>
           </ul>
         </div>
         <div className="col-md-1"></div>
@@ -183,7 +220,7 @@ const Home = () => {
             <li><i className="bi bi-record-circle-fill"></i><strong>Performance Optimization:</strong> Dedicated to improving website speed, minimizing HTTP requests, and optimizing assets.</li>
             <li><i className="bi bi-record-circle-fill"></i><strong>Cross-Browser Compatibility:</strong> Ensuring seamless rendering across various browsers and devices.</li>
             <li><i className="bi bi-record-circle-fill"></i><strong>Design Tools:</strong> Adobe XD, Figma, Sketch, Photoshop, Illustrator.</li>
-            <li><i className="bi bi-record-circle-fill"></i><strong>Programming Skills:</strong> HTML5, XHTML, XML, CSS3(Less & Sass), Tailwind CSS, Bootstrap, Responsive Web Design, Semantic UI, W3c Standards, PHP, mySQL, JavaScript, jQuery, WordPress, October CMS.</li>
+            <li><i className="bi bi-record-circle-fill"></i><strong>Programming Skills:</strong> HTML5, XHTML, XML, CSS3(Less & Sass), Tailwind CSS, Bootstrap, Responsive Web Design, Semantic UI, W3c Standards, PHP, mySQL, JavaScript, jQuery, React JS, WordPress UI, Magento2 UI, Shopify UI, October CMS.</li>
           </ul>
         </div>
       </div>

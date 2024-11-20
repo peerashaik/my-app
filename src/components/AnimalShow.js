@@ -1,20 +1,17 @@
 import { useState } from 'react';
 
-function randomanimal() {
-	const animals = ['bird', 'cat', 'dog', 'fish', 'rabit', 'turtle', 'snake'];
-	return animals[Math.floor(Math.random() * animals.length)];
+const animals = ['bird', 'cat', 'dog', 'fish', 'rabit', 'turtle', 'snake'];
+
+function showAnimals() {
+	const result = animals[Math.floor(Math.random() * animals.length)];
+	return document.getElementById("demo").innerHTML = result;
 }
 
 export const AnimalShow = () => {
-	const [animals, setAnimals] = useState([]);
-
-	function showAnimals() {
-		setAnimals([...animals, randomanimal()]);
-	}
   return (
     <>
     <button className='btn btn-primary' onClick={showAnimals}>Show Animal</button>
-    <div>{animals}</div>
+    <div id="demo"></div>
     </>
   );
 }

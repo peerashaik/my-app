@@ -9,7 +9,7 @@ const Patrons = () => {
     <FadeInSection>
     <div className="container">
       <div className="blockquote text-center my-10">
-        <h2 className="content-heading mb-3 text-center text-uppercase"><strong><span className="text-water">Employer</span> &  <span className="text-yellow">Employee</span></strong></h2>
+        <h2 className="content-heading mb-3 text-center text-uppercase"><strong><span className="text-water">Employer</span> . <span className="text-yellow">Employee</span></strong></h2>
         <div className=" px-10">
           <p>Building a strong bond between customers and employers is essential for long-term success and loyalty. Customer satisfaction is a crucial aspect of any business, especially in design and development.</p>
           <Button btnlink='works' btnstyle='btn-primary' label='VIEW RECENT WORKS' />

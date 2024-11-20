@@ -14,10 +14,23 @@ const About = () => {
     </div>
 
     <FadeInSection>
+    <div className="container">
+      <div className="blockquote text-center my-10">
+        <h2 className="content-heading mb-3 text-center text-uppercase"><strong><span className="text-red">Design</span> . <span className="text-yellow">Development</span></strong></h2>
+        <div className=" px-10">
+          <p>Throughout my 21 years of experience in Web design & Web development field I have been providing clients, from all around the world, with the most innovative and unique user interfaces using the latest technologies.</p>
+          <p>I have also become highly respected UI designer known to push the boundaries of pixel perfect design creations with my keen eyes for details and create game-changing ideas that make extraordinary things happen.</p>
+          <Button btnlink='experience' btnstyle='btn-primary' label='MY EXPERIENCES' />
+        </div>
+      </div>
+    </div>
+    </FadeInSection>
+
+    <FadeInSection>
     <div className="color-bg red py-8 mb-5">
       <blockquote className="container text-center">
         <h3 className="text-white text-uppercase"><strong>An Enthusiastic</strong></h3>
-        <p className="text-white px-10">I am an enthusiastic IT industry professional with 20.6 years of hands-on experience across various roles. I am committed to shaping exceptional user experiences for digital products. My multifaceted background as a UI Designer, Web Developer, and Adobe Magento2 Commerce Frontend Developer has equipped me with a unique blend of creativity, technical acumen, and leadership skills.</p>
+        <p className="text-white px-10">I am an enthusiastic IT industry professional with 21 years of hands-on experience across various roles. I am committed to shaping exceptional user experiences for digital products. My multifaceted background as a UI Designer, Web Developer, and Adobe Magento2 Commerce Frontend Developer has equipped me with a unique blend of creativity, technical acumen, and leadership skills.</p>
         <Button btnlink='skills' btnstyle='btn-black' label='ABOUT MY SKILLS' />
       </blockquote>
       <div className="slant black"></div>
