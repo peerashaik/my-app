@@ -7,7 +7,7 @@ const About = () => {
     <>
     <div className="hero-banner about">
       <div className="headings">
-        <h2 className="text-center">A DESIGN THINK?<br /><span className="text-yellow ms-2">THINK</span> ME!</h2>
+        <h2 className="text-center">A DESIGN THINK?<br /><span className="text-red ms-2">THINK</span> ME!</h2>
       </div>
       <div className="overlay"></div>
       <div className="pic"></div>
@@ -16,7 +16,7 @@ const About = () => {
     <FadeInSection>
     <div className="container">
       <div className="blockquote text-center my-10">
-        <h2 className="content-heading mb-3 text-center text-uppercase"><strong><span className="text-red">Design</span> . <span className="text-yellow">Development</span></strong></h2>
+        <h2 className="mb-3 text-center text-uppercase"><strong><span className="text-green">Design</span> . <span className="text-water">Development</span></strong></h2>
         <div className=" px-10">
           <p>Throughout my 21 years of experience in Web design & Web development field I have been providing clients, from all around the world, with the most innovative and unique user interfaces using the latest technologies.</p>
           <p>I have also become highly respected UI designer known to push the boundaries of pixel perfect design creations with my keen eyes for details and create game-changing ideas that make extraordinary things happen.</p>
@@ -40,7 +40,7 @@ const About = () => {
     <FadeInSection>
     <div className="container my-10">
       <div className="blockquote text-center">
-        <h2 className="content-heading text-center text-uppercase mb-3"><strong><span className="text-yellow">Find</span> Me!</strong> <i className="bi bi-bar-chart-fill"></i></h2>
+        <h2 className="content-heading text-center text-uppercase mb-3"><strong><span className="text-water">Find</span> Me!</strong> <i className="bi bi-bar-chart-fill"></i></h2>
         <p className="px-10">It’s great to have some downtime! Passionate for web design and development, I might enjoy activities that both relax and inspire me.</p>
       </div>
 
