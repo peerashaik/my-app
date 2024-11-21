@@ -548,7 +548,7 @@ input[type="submit"] {
 }
 
 .banners h2 {
-    font-size: 52px;
+    font-size: 48px;
     line-height: 45px;
     font-weight: bold;
     margin: 0 0 20px;
@@ -848,10 +848,6 @@ input[type="submit"] {
 }
 
 @media (min-width: 768px) {
-    .color-bg h3 {
-        font-size: 36px;
-    }
-
     .content-heading:before {
         display: block;
     }

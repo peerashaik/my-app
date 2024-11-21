@@ -25,7 +25,7 @@
     background-image: url('../images/hero-banner1.jpg');
 }
 
-.hero-banner.patrons .pic {
+.hero-banner.experience .pic {
     background-image: url('../images/hero-banner4.jpg');
 }
 
@@ -44,12 +44,13 @@
     font-size: 60px;
 }
 
+.hero-banner h2,
 .hero-banner h3,
 .hero-banner h4,
 .hero-banner h5 {
     color: var(--white);
-    font-weight: 600;
     text-shadow: 2px 2px var(--black);
+    margin: 40px 0;
 }
 
 .hero-banner h3 {

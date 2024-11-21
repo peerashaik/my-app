@@ -2,17 +2,15 @@ import React from "react";
 import FadeInSection from './FadeInSection';
 import Button from './Button';
 
-import heroBanner from "../images/hero-banner2.jpg";
-
 const About = () => {
   return (
     <>
     <FadeInSection>
     <div className="container">
       <div className="text-center my-20">
-        <h2 className="text-4xl md:text-5xl text-center my-10"><strong><span className="inline-block text-green">Design</span> <span className="text-water">Development</span></strong></h2>
+        <h2 className="text-4xl md:text-5xl text-center my-10"><strong><span className="inline-block text-green">Design</span> - <span className="text-water">Development</span></strong></h2>
         <div className="px-10">
-          <p>Throughout my 21 years of experience in Web design & Web development field I have been providing clients, from all around the world, with the most innovative and unique user interfaces using the latest technologies.</p>
+          <p className="mb-5">Throughout my 21 years of experience in Web design & Web development field I have been providing clients, from all around the world, with the most innovative and unique user interfaces using the latest technologies.</p>
           <p className="mb-10">I have also become highly respected UI designer known to push the boundaries of pixel perfect design creations with my keen eyes for details and create game-changing ideas that make extraordinary things happen.</p>
           <Button btnlink='experience' btnstyle='btn-primary' label='MY EXPERIENCES' />
         </div>
@@ -21,11 +19,11 @@ const About = () => {
     </FadeInSection>
 
     <div className="hero-banner about">
-      <div className="headings flex justify-center items-center flex-col absolute z-10 w-full md:h-full">
+      <div className="headings flex justify-center items-center flex-col absolute z-10 w-full h-full">
         <h2 className="text-center">A DESIGN THINK?<br /><span className="inline text-red ms-2">THINK</span> ME!</h2>
       </div>
       <div className="overlay"></div>
-      <img src={heroBanner} alt="Hero Banner" />
+      <div className="pic"></div>
     </div>
 
     <FadeInSection>

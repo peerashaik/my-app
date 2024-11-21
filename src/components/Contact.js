@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <>
     <div className="hero-banner contact">
-      <div className="headings flex justify-center items-center flex-col absolute z-10 w-full md:h-full">
+      <div className="headings flex justify-center items-center flex-col absolute z-10 w-full h-full">
         <h2 className=" text-center">CONTACT</h2>
       </div>
       <div className="overlay"></div>
@@ -14,13 +14,13 @@ const Contact = () => {
     </div>
 
     <div className="text-center mt-20">
-      <p>Please contact from any of the medium shared on left to serve you better.</p>
+      <p>Let’s talk design, theme, development, integration, consistency, perfection, delivery.</p>
     </div>
 
     <div className="mt-14 mb-32">
       <div className="container">
         <div class="grid md:grid-cols-2 md:gap-20">
-          <div>
+          <div className="mb-10">
             <iframe title="Google Map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3808.0429666229174!2d78.52536347493412!3d17.36166538352114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb98f3392aeae1%3A0xcd793fc995785c3a!2s13-57%2C%20Saroornagar%2C%20Kodandaram%20Nagar%2C%20Dilsukhnagar%2C%20Hyderabad%2C%20Telangana%20500060!5e0!3m2!1sen!2sin!4v1725111380820!5m2!1sen!2sin" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
           </div>
           <div>

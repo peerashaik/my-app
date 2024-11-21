@@ -32,7 +32,7 @@ const Skills = () => {
 
     <FadeInSection>
     <div className="hero-banner skills mb-5">
-      <div className="headings flex justify-center items-center flex-col absolute z-10 w-full md:h-full">
+      <div className="headings flex justify-center items-center flex-col absolute z-10 w-full h-full">
         <h2 className="text-center">USER INTERFACE DESIGN</h2>
         <h3 className="text-center">WEB DEVELOPMENT</h3>
         <h4 className="text-center">eCOMMERCE FRONTEND</h4>
