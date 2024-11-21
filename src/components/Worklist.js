@@ -82,14 +82,14 @@ export function getImage(work) {
 export default function List() {
   const listItems = worksData.map(work =>
     
-    <div className="item" key={work.id}>
+    <div className="item w-full md:w-5/12" key={work.id}>
       <div className="img-wrapper">
           <i className="logo"></i>
           <a href={work.url} target="_blank" rel="noreferrer">
             <img src={getImage(work)} alt={work.name} />
           </a>
       </div>
-      <h2><a href={work.url} target="_blank" rel="noreferrer">{work.name}</a></h2>
+      <h2 className="my-10 relative"><a href={work.url} target="_blank" rel="noreferrer">{work.name}</a></h2>
     </div>
 
   );

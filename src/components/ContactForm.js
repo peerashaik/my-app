@@ -6,9 +6,11 @@ import styled from 'styled-components';
 const Alert = styled.div`
   display: none;
   boder: 0;
+  border-radius: 8px;
   background: var(--green);
   font-size: 13px;
   line-height: 18px;
+  padding: 10px;
   position: fixed;
   top: 10%;
   right: 20px;
@@ -58,19 +60,19 @@ export const ContactForm = () => {
     <form ref={form} onSubmit={sendEmail}>
       <Alert id="success" className="alert alert-success" role="alert"></Alert>
       <div className="mb-3">
-        <label htmlFor="fullname" className="form-label">Name</label>
-        <input type="text" name="user_name" id="fullname" className="form-control" placeholder="Enter your name" required />
+        <label htmlFor="fullname" className="block form-label">Name</label>
+        <input type="text" name="user_name" id="fullname" className="w-full form-input text-gray-800 p-4" placeholder="Enter your name" required />
       </div>  
       <div className="mb-3">
-        <label htmlFor="email" className="form-label">Email</label>
-        <input type="email" name="user_email" id="email" className="form-control" placeholder="Enter your email" required />
+        <label htmlFor="email" className="block form-label">Email</label>
+        <input type="email" name="user_email" id="email" className="w-full form-input text-gray-800 p-4" placeholder="Enter your email" required />
       </div>
       <div className="mb-4">
-        <label htmlFor="message" className="form-label">Message</label>
-        <textarea name="message" id="message" className="form-control" placeholder="Enter your message" rows="3" required></textarea>
+        <label htmlFor="message" className="block form-label">Message</label>
+        <textarea name="message" id="message" className="w-full form-input text-gray-800 p-4" placeholder="Enter your message" rows="3" required></textarea>
       </div>
       <div>
-        <input className="btn btn-primary" type="submit" value="Send" />
+        <input className="w-full btn btn-primary" type="submit" value="Send" />
       </div>      
     </form>
     </>

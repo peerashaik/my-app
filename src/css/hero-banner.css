@@ -29,37 +29,27 @@
     background-image: url('../images/hero-banner4.jpg');
 }
 
-.hero-banner .overlay,
-.hero-banner .headings {
+.hero-banner .overlay {
     position: absolute;
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.hero-banner .overlay {
     background: var(--black);
     opacity: .4;
 }
 
-.hero-banner .headings {
-    flex-direction: column;
-    z-index: 9;
+.hero-banner h2 {
+    font-size: 60px;
 }
 
-.hero-banner h2,
 .hero-banner h3,
 .hero-banner h4,
 .hero-banner h5 {
     color: var(--white);
     font-weight: 600;
     text-shadow: 2px 2px var(--black);
-}
-
-.hero-banner h2 {
-    font-size: 38px;
 }
 
 .hero-banner h3 {
@@ -77,10 +67,6 @@
     opacity: .25;
 }
 
-.hero-banner h2 span {
-    display: inline-block;
-}
-
 @media (min-width: 768px) {
     .hero-banner {
         overflow: hidden;
@@ -91,10 +77,6 @@
     .hero-banner h4,
     .hero-banner h5 {
         font-weight: 700;
-    }
-
-    .hero-banner h2 {
-        font-size: 80px;
     }
 
     .hero-banner h3 {

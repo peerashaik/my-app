@@ -17,14 +17,15 @@ const Footer = (props) => {
     <>
     <footer className="footer">
       <div className="container">
-        <ul className="nav">
+      <div className="flex flex-wrap justify-center md:justify-between items-center pt-10">
+        <ul className="nav flex flex-wrap justify-center items-center">
           <li className="nav-item"><NavLink to="/about" className="nav-link link">About</NavLink></li>
           <li className="nav-item"><NavLink to="/skills" className="nav-link link">Skills</NavLink></li>
           <li className="nav-item"><NavLink to="/experience" className="nav-link link">Experience</NavLink></li>
           <li className="nav-item"><NavLink to="/works" className="nav-link link">Works</NavLink></li>
           <li className="nav-item"><NavLink to="/contact" className="nav-link link">Contact</NavLink></li>
         </ul>
-        <ul className="nav social">
+        <ul className="nav social flex justify-center items-center mt-5 md:mt-0">
           <li>
             <a className="link" onClick={onButtonClick}>Download - RESUME</a>
           </li>
@@ -39,9 +40,10 @@ const Footer = (props) => {
           </li>
         </ul>
       </div>
+      </div>
     </footer>
-    <div className="copyright text-center py-4">
-        <p className="m-0">© <span id='date'></span> Shaik'sWeb. All rights reserved.</p>
+    <div className="copyright flex justify-center items-center py-5 text-sm text-gray-600">
+        © <span id='date'></span> Shaik'sWeb. All rights reserved.
     </div>
     <NavLink to="#" className="back-to-top"><i className="bi bi-arrow-up-circle-fill"></i></NavLink>
     </>
