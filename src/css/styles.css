@@ -187,7 +187,7 @@ input[type="submit"] {
 }
 
 /*colors*/
-.color-darkpink {
+.text-pink {
     color: var(--pink);
 }
 
@@ -205,6 +205,10 @@ input[type="submit"] {
 
 .text-yellow {
     color: var(--yellow);
+}
+
+.text-water {
+    color: var(--water);
 }
 
 .text-water {

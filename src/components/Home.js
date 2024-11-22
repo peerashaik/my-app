@@ -87,7 +87,7 @@ const Home = () => {
     <FadeInSection>
     <div className="container">
       <div className="text-center my-32">
-        <h2 className="content-heading relative text-4xl md:text-5xl text-center my-10"><strong><span className="inline-block text-yellow">Pixel Perfect</span> Wins</strong></h2>
+        <h2 className="content-heading relative text-4xl md:text-5xl text-center my-10"><strong><span className="inline-block text-green">Pixel Perfect</span> Wins</strong></h2>
         <p className="px-10 mb-10">I have also become a highly valued user interface designer with 21 years of IT industry experience. I am known to push the boundaries of pixel perfect design creations with my keen eyes for details and create interfaces with emerging ideas that result cross browser compatible layouts.</p>
         <Button btnlink='skills' btnstyle='btn-primary' label='DESIGN THEME-ING' />
       </div>
@@ -186,8 +186,8 @@ const Home = () => {
     <FadeInSection>
     <div className="container">
       <div className="key-skills mb-20">
-        <h2 className="text-center my-28">A journey of Commitment towards a learning process!</h2>
-        <h3 className="text-center mb-5"><strong>KEY <span className="color-darkpink">SKILLS</span> & <span className="text-blue">TECHNOLOGIES</span></strong></h3>
+        <h2 className="text-center text-green my-28">A journey of Commitment towards a learning process!</h2>
+        <h3 className="text-center mb-5"><strong>KEY SKILLS <span className="text-green">&</span> TECHNOLOGIES</strong></h3>
         <div class="grid md:grid-cols-2 md:gap-20">
         <div>
           <ul>

@@ -9,7 +9,7 @@ const Patrons = () => {
     <FadeInSection>
     <div className="container">
       <div className="text-center my-20">
-        <h2 className="content-heading relative text-4xl md:text-5xl text-center my-10"><strong><span className="inline-block text-water">Employer</span> - <span className="text-yellow">Employee</span></strong></h2>
+        <h2 className="content-heading relative text-4xl md:text-5xl text-center my-10"><strong>Employer - <span className="text-yellow">Employee</span></strong></h2>
           <p className="px-10 mb-10">Building a strong bond between customers and employers is essential for long-term success and loyalty. Customer satisfaction is a crucial aspect of any business especially in design and development.</p>
           <Button btnlink='works' btnstyle='btn-primary' label='VIEW RECENT WORKS' />
       </div>
@@ -18,7 +18,7 @@ const Patrons = () => {
 
     <FadeInSection>
     <div className="container">
-        <h2 className="text-center"><strong><span className="color-darkpink">For All</span> My <span className="text-water">Employers...</span> <i className="bi bi-balloon-heart"></i></strong></h2>
+        <h2 className="text-center"><strong><span className="text-red">For All</span> My <span className="text-yellow">Employers...</span> <i className="bi bi-balloon-heart"></i></strong></h2>
         <ul className="employer-list">
           <Explist />
         </ul>
@@ -39,7 +39,7 @@ const Patrons = () => {
     <FadeInSection>
     <div className="hero-banner experience">
       <div className="headings flex justify-center items-center flex-col absolute z-10 w-full h-full">
-        <h2 className="text-center">CUSTOMER & <span className="inline text-blue ms-2">SUCCESS</span></h2>
+        <h2 className="text-center">CUSTOMER & <span className="inline text-yellow">SUCCESS</span></h2>
       </div>
       <div className="overlay"></div>
       <div className="pic"></div>
