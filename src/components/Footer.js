@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 const Footer = (props) => {
-  const onButtonClick = () => {
+  const downloadResume = () => {
     fetch("Senior-UI-Designer-Developer-PeeraShaik.pdf").then((response) => {
       response.blob().then((blob) => {
         const fileURL = window.URL.createObjectURL(blob);
@@ -27,7 +27,7 @@ const Footer = (props) => {
         </ul>
         <ul className="nav social flex justify-center items-center mt-5 md:mt-0">
           <li>
-            <a className="link" onClick={onButtonClick}>Download - RESUME</a>
+            <a className="link" onClick={downloadResume}>Download - RESUME</a>
           </li>
           <li className="ms-2">
             <a href="https://www.facebook.com/peera.shaik" target="_blank" rel="noreferrer"><i className="bi bi-facebook"></i></a>
@@ -43,7 +43,7 @@ const Footer = (props) => {
       </div>
     </footer>
     <div className="copyright flex justify-center items-center py-5 text-sm text-gray-600">
-        © <span id='date'></span> Shaik'sWeb. All rights reserved.
+        © <span id='date'></span> Shaik's Web. All rights reserved.
     </div>
     <NavLink to="#" className="back-to-top"><i className="bi bi-arrow-up-circle-fill"></i></NavLink>
     </>
