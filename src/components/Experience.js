@@ -29,7 +29,7 @@ const Patrons = () => {
     <div className="color-bg yellow py-14 text-center">
       <div className="container">
         <h3 className="uppercase text-white text-3xl md:text-4xl my-10"><strong>Product Design! Think Me!</strong></h3>
-        <p className="text-white px-10 mb-10">I am actively seeking a dynamic and creative environment where I can contribute significantly. Whether it’s leading a team, driving innovation, or refining user experiences, I am psyched up to add value and make a lasting impact.</p>
+        <p className="text-white px-10 mb-10">I am actively seeking a dynamic and creative environment where I can contribute significantly. Whether it’s leading a team, driving innovation, or refining user experiences or user interfaces, I am psyched up to add value and make a lasting impact.</p>
         <Button btnlink='contact' btnstyle='btn-outline' label='CONTACT' />
       </div>
       <div className="slant black top"></div>

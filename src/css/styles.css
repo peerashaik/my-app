@@ -89,6 +89,14 @@ a:is(:hover, :focus) {
     text-decoration: underline;
 }
 
+a.white {
+    color: var(--white);
+}
+a.white:is(:hover, :focus) {
+    color: var(--grey-dark);
+    text-decoration: underline;
+}
+
 hr {
     opacity: .8;
     margin: 30px 0;
