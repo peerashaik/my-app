@@ -27,11 +27,11 @@ const Contact = () => {
           <div className="contact">
             <FadeInSection>
             <h5 className="block m-0"><i className="bi bi-telephone-fill"></i> Phone:</h5>
-            <p className="block">+91 9632413905</p>
+            <p className="block mb-5">+91 9632413905</p>
             <h5 className="block m-0"><i className="bi bi-people-fill"></i> Skype/Teams:</h5>
-            <p className="block">peera.shaik</p>
+            <p className="block mb-5">peera.shaik</p>
             <h5 className="block m-0"><i className="bi bi-envelope-fill"></i> Email:</h5>
-            <p className="block"><a href="mailto:peerashaik786@gmail.com">peerashaik786@gmail.com</a></p>
+            <p className="block mb-5"><a href="mailto:peerashaik786@gmail.com">peerashaik786@gmail.com</a></p>
             <address>
               <h5 className="block m-0"><i className="bi bi-map-fill"></i> Address:</h5>
               <p className="block m-0">
@@ -40,6 +40,7 @@ const Contact = () => {
                 Hyderabad, Telangana - 500060
               </p>
             </address>
+            <p className="block mt-5"><a className="link" href="https://www.linkedin.com/in/peerashaik/" target="_blank" download>Download - RESUME</a></p>
             </FadeInSection>
             
             <FadeInSection>
