@@ -10,8 +10,8 @@ const About = () => {
       <div className="text-center my-20">
         <h2 className="text-4xl md:text-5xl text-center my-10"><strong><span className="inline-block text-red">Design</span> - Development</strong></h2>
         <div className="px-10">
-          <p className="mb-5">Throughout my 21 years of experience in Web design & Web development field I have been providing clients, from all around the world, with the most innovative and unique user interfaces using the latest technologies.</p>
-          <p className="mb-10">I have also become highly respected UI designer known to push the boundaries of pixel perfect design creations with my keen eyes for details and create game-changing ideas that make extraordinary things happen.</p>
+          <p className="mb-5">Throughout 21 years of experience in Web design & Web development field I have been providing clients, from all around the world, with the most innovative and unique user interfaces using the latest technologies.</p>
+          <p className="mb-10">I have also become a highly respected UI designer known to push the boundaries of pixel perfect designs with my keen eyes for details and create interfaces that make an impact on visitor count.</p>
           <Button btnlink='experience' btnstyle='btn-primary' label='MY EXPERIENCES' />
         </div>
       </div>
