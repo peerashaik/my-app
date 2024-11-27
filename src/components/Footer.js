@@ -3,12 +3,12 @@ import { NavLink } from "react-router-dom";
 
 const Footer = (props) => {
   const onButtonClick = () => {
-    fetch("Certified-Magento2-Frontend-Developer-PeeraShaik.pdf").then((response) => {
+    fetch("Senior-UI-Designer-Developer-PeeraShaik.pdf").then((response) => {
       response.blob().then((blob) => {
         const fileURL = window.URL.createObjectURL(blob);
         let alink = document.createElement("a");
         alink.href = fileURL;
-        alink.download = "Certified-Magento2-Frontend-Developer-PeeraShaik.pdf";
+        alink.download = "Senior-UI-Designer-Developer-PeeraShaik.pdf";
         alink.click();
       });
     });
