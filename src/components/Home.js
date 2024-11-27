@@ -128,7 +128,7 @@ const Home = () => {
 
     <div className="cards empty py-10">
       <div className="container">
-      <div class="grid md:grid-cols-3 md:gap-20">
+      <div className="grid md:grid-cols-3 md:gap-20">
         <div className="card shadow text-center my-4 md:my-10 p-10">
             <h4>TARGET USERS</h4>
             <p>Designing an interface with your target user in mind is crucial for creating a successful and engaging user experience. Mobile-first and mobile-friendly application development are essential strategies in today’s digital landscape. </p>
@@ -188,7 +188,7 @@ const Home = () => {
       <div className="key-skills mb-20">
         <h2 className="text-center text-green my-28">A journey of Commitment towards a learning process!</h2>
         <h3 className="text-center mb-5"><strong>KEY SKILLS <span className="text-green">&</span> TECHNOLOGIES</strong></h3>
-        <div class="grid md:grid-cols-2 md:gap-20">
+        <div className="grid md:grid-cols-2 md:gap-20">
         <div>
           <ul>
             <li><i className="bi bi-record-circle-fill"></i><strong>HTML5 and XHTML:</strong> Adept at crafting semantic and accessible web pages, ensuring compatibility across devices and browsers.</li>
