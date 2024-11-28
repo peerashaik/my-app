@@ -104,7 +104,7 @@ hr {
 
 iframe {
     width: 100%;
-    height: 550px;
+    height: 100vh;
 }
 
 input[type="submit"] {
@@ -905,7 +905,7 @@ input[type="submit"] {
     }
 
     .back-to-top {
-        bottom: 70px;
+        bottom: 58px;
         right: 50px;
     }
 }

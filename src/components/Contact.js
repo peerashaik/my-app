@@ -45,6 +45,8 @@ const Contact = () => {
             
             <FadeInSection>
               <div className="mt-14">
+                <h5 className="mb-2">Connect with me!</h5>
+                <p className="mb-5">Feel free to give your valid inputs to receive job updates, improvements, suggestions, and to grab your opportunities.</p>
                 <ContactForm />
               </div>
             </FadeInSection>

@@ -61,15 +61,15 @@ export const ContactForm = () => {
       <Alert id="success" className="alert alert-success" role="alert"></Alert>
       <div className="mb-3">
         <label htmlFor="fullname" className="block form-label">Name</label>
-        <input type="text" name="user_name" id="fullname" className="w-full form-input text-gray-800 p-4" placeholder="Enter your name" required />
+        <input type="text" name="user_name" id="fullname" className="w-full form-input text-gray-800 p-4" placeholder="Your name" required />
       </div>  
       <div className="mb-3">
         <label htmlFor="email" className="block form-label">Email</label>
-        <input type="email" name="user_email" id="email" className="w-full form-input text-gray-800 p-4" placeholder="Enter your email" required />
+        <input type="email" name="user_email" id="email" className="w-full form-input text-gray-800 p-4" placeholder="Your email" required />
       </div>
       <div className="mb-4">
         <label htmlFor="message" className="block form-label">Message</label>
-        <textarea name="message" id="message" className="w-full form-input text-gray-800 p-4" placeholder="Enter your message" rows="3" required></textarea>
+        <textarea name="message" id="message" className="w-full form-input text-gray-800 p-4" placeholder="Your message" rows="3" required></textarea>
       </div>
       <div>
         <input className="w-full btn btn-primary" type="submit" value="Send" />
