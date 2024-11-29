@@ -30,7 +30,7 @@ const Contact = () => {
             <p className="block mb-5">+91 9632413905</p>
             <h5 className="block m-0"><i className="bi bi-people-fill"></i> Social Links:</h5>
             <p className="block">Skype: peera.shaik</p>
-            <p className="block mb-5"><a className="white" href="https://www.linkedin.com/in/peerashaik/" target="_blank">LinkedIn Profile</a></p>
+            <p className="block mb-5"><a className="white" href="https://www.linkedin.com/in/peerashaik/" target="_blank" rel="noreferrer">LinkedIn Profile</a></p>
             <h5 className="block m-0"><i className="bi bi-envelope-fill"></i> Email:</h5>
             <p className="block mb-5"><a className="white" href="mailto:peerashaik786@gmail.com">peerashaik786@gmail.com</a></p>
             <address>

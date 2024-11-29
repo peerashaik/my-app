@@ -16,7 +16,7 @@ const Footer = (props) => {
         </ul>
         <ul className="nav social flex justify-center items-center mt-5 md:mt-0">
           <li>
-            <a className="link" href="https://www.linkedin.com/in/peerashaik/" target="_blank" download>Download - RESUME</a>
+            <a className="link" href="https://www.linkedin.com/in/peerashaik/" target="_blank" rel="noreferrer">Download - RESUME</a>
           </li>
           <li className="ms-2">
             <a href="https://www.facebook.com/peera.shaik" target="_blank" rel="noreferrer"><i className="bi bi-facebook"></i></a>
