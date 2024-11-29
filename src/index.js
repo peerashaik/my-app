@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import './css/styles.css';
 import './css/hero-banner.css';
-import "./css/toggleswitch.css";
 import { HashRouter } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
 
