@@ -1,73 +1,108 @@
 export const worksData = [{
   id: 0,
-  name: 'Exercise.co.uk',
+  name: 'Exercise',
   url: 'https://exercise.co.uk',
   image: 'exercise'
 }, {
   id: 1,
-  name: 'Vita4you.gr',
+  name: 'Vita4you',
   url: 'https://vita4you.gr',
   image: 'vita4you'
 }, {
   id: 2,
-  name: 'Docitt.com',
+  name: 'Docitt',
   url: 'https://www.docitt.com',
   image: 'docitt'
 }, {
   id: 3,
-  name: 'Invopak.co.uk',
+  name: 'Invopak',
   url: 'https://invopak.co.uk',
   image: 'invopak'
 }, {
   id: 4,
-  name: 'Hardwinsoftware.co',
+  name: 'Hardwinsoftware',
   url: 'https://hardwinsoftware.com',
   image: 'hardwin'
 }, {
   id: 5,
-  name: 'Magnahardwoodfloors.com',
+  name: 'Magnahardwoodfloors',
   url: 'https://magnahardwoodfloors.com',
   image: 'magna'
 }, {
   id: 6,
-  name: 'Camlab.co.uk',
+  name: 'Camlab',
   url: 'https://camlab.co.uk',
   image: 'camlab'
 }, {
   id: 7,
-  name: 'Startupwind.com',
+  name: 'Startupwind',
   url: 'https://www.startupwind.com',
   image: 'startupwind'
 }, {
   id: 8,
-  name: 'Bainland.co.uk',
+  name: 'Bainland',
   url: 'https://bainland.co.uk',
   image: 'bainland'
 }, {
   id: 9,
-  name: 'Shop.se',
+  name: 'Shop',
   url: 'https://shop.se.com/fr/fr',
   image: 'shopse'
 }, {
   id: 10,
-  name: 'Iniala.com',
+  name: 'Iniala',
   url: 'https://iniala.com',
   image: 'iniala'
 }, {
   id: 11,
-  name: 'RussellHobbs.com',
+  name: 'RussellHobbs',
   url: 'https://uk.russellhobbs.com',
   image: 'russelhob'
 }, {
   id: 12,
-  name: 'ElioBay.com',
+  name: 'ElioBay',
   url: 'https://eliobay.com',
   image: 'eliobay'
 }, {
   id: 13,
+  name: 'PowerToolSpares',
+  url: 'https://powertoolspares.com',
+  image: 'powertools'
+}, {
+  id: 14,
+  name: 'Corporatecaresolutions',
+  url: 'https://www.corporatecaresolutions.com/',
+  image: 'corporatecare'
+}, {
+  id: 15,
+  name: 'Faye',
+  url: 'https://faye.in',
+  image: 'faye'
+}, {
+  id: 16,
   name: 'PowerToolSpares.com',
   url: 'https://powertoolspares.com',
   image: 'powertools'
+}, {
+  id: 17,
+  name: 'Mynpp',
+  url: 'https://mynpp.co',
+  image: 'mynpp'
+}, {
+  id: 18,
+  name: 'Nlfisher',
+  url: 'https://nlfisher.com',
+  image: 'nlfisher'
+}, {
+  id: 19,
+  name: 'Surecopy',
+  url: 'https://surecopyladner.com',
+  image: 'surecopy'
+}, {
+  id: 20,
+  name: 'Tellofy',
+  url: 'https://tellofy.com',
+  image: 'tellofy'
 }];
 
 

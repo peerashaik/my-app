@@ -6,10 +6,11 @@ import './css/hero-banner.css';
 import { HashRouter } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const container = document.getElementById('root');
+const root = ReactDOM.createRoot(container);
 root.render(
   <HashRouter>
-  <ScrollToTop/>
-     <App />
+    <ScrollToTop/>
+    <App />
   </HashRouter>
 );

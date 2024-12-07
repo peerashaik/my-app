@@ -100,16 +100,16 @@ const Home = () => {
         <div className="item">
           <div className="img-wrapper">
               <i className="logo"></i>
-              <a href="https://magnahardwoodfloors.com" target="_blank" rel="noreferrer"><img src={require("../../src/images/works/magna.png")} loading="lazy" alt="Magna Hard Wood Floors" /></a>
+              <a href="https://vita4you.gr" target="_blank" rel="noreferrer"><img src={require("../../src/images/works/vita4you.png")} loading="lazy" alt="Vita4you" /></a>
           </div>
-          <h2 className="my-10 relative"><a href="https://magnahardwoodfloors.com" target="_blank" rel="noreferrer">Magnahardwoodfloors.com</a></h2>
+          <h2 className="my-10 relative"><a href="https://vita4you.gr" target="_blank" rel="noreferrer">Vita4you</a></h2>
         </div>
         <div className="item">
           <div className="img-wrapper">
               <i className="logo"></i>
-              <a href="https://eliobay.com" target="_blank" rel="noreferrer"><img src={require('../../src/images/works/eliobay.png')} loading="lazy" alt="ElioBay" /></a>
+              <a href="https://mynpp.com" target="_blank" rel="noreferrer"><img src={require('../../src/images/works/mynpp.png')} loading="lazy" alt="Mynpp" /></a>
           </div>
-          <h2 className="my-10 relative"><a href="https://eliobay.com" target="_blank" rel="noreferrer">ElioBay.com</a></h2>
+          <h2 className="my-10 relative"><a href="https://mynpp.com" target="_blank" rel="noreferrer">Mynpp</a></h2>
         </div>
       </div>
     </div>
