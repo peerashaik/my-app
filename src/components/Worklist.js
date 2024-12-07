@@ -108,7 +108,7 @@ export const worksData = [{
 
 export function getImage(work) {
   return (
-    'https://peerashaik.github.io/portfolio/images/works/' +
+    'https://peerashaik.github.io/my-app/images/works/' +
     work.image +
     '.png'
   );
