@@ -86,7 +86,7 @@ export const worksData = [{
 }, {
   id: 17,
   name: 'Mynpp',
-  url: 'https://mynpp.co',
+  url: 'https://mynpp.com',
   image: 'mynpp'
 }, {
   id: 18,
