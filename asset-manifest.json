@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/my-app/static/css/main.57a95d82.css",
-    "main.js": "/my-app/static/js/main.6583efca.js",
+    "main.js": "/my-app/static/js/main.86edae3e.js",
+    "static/media/vita4you.png": "/my-app/static/media/vita4you.b49c66726b6ef46a1d76.png",
     "static/media/hero-banner1.jpg": "/my-app/static/media/hero-banner1.5a8b88489e5a0b8194ca.jpg",
-    "static/media/magna.png": "/my-app/static/media/magna.9ce108afb7c367cf55f1.png",
     "static/media/hero-banner5.jpg": "/my-app/static/media/hero-banner5.622008656a089d82d8df.jpg",
-    "static/media/eliobay.png": "/my-app/static/media/eliobay.41b8fbc8054ceec4ea5b.png",
     "static/media/hero-banner2.jpg": "/my-app/static/media/hero-banner2.943a6b1f62abc162c491.jpg",
     "static/media/hero-banner4.jpg": "/my-app/static/media/hero-banner4.d0ad92ffad0340324cfa.jpg",
+    "static/media/mynpp.png": "/my-app/static/media/mynpp.a38f6b604d7d1a380416.png",
     "static/media/heliosext.woff": "/my-app/static/media/heliosext.34eae4915df009a9db57.woff",
     "static/media/heliosext-bold.woff": "/my-app/static/media/heliosext-bold.39f16363ab648ef7ca1c.woff",
     "static/media/heliosext.woff2": "/my-app/static/media/heliosext.96a983bcc1b10b32069b.woff2",
     "static/media/heliosext-bold.woff2": "/my-app/static/media/heliosext-bold.a3e735bb5a41278580d8.woff2",
     "index.html": "/my-app/index.html",
     "main.57a95d82.css.map": "/my-app/static/css/main.57a95d82.css.map",
-    "main.6583efca.js.map": "/my-app/static/js/main.6583efca.js.map"
+    "main.86edae3e.js.map": "/my-app/static/js/main.86edae3e.js.map"
   },
   "entrypoints": [
     "static/css/main.57a95d82.css",
-    "static/js/main.6583efca.js"
+    "static/js/main.86edae3e.js"
   ]
 }
