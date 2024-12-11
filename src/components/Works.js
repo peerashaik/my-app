@@ -11,7 +11,8 @@ const Works = () => {
     <div className="container">
       <div className="text-center my-20">
         <h2 className="content-heading relative text-4xl md:text-5xl text-center my-10"><strong><span className="inline text-pink">Client</span> - Success</strong></h2>
-        <p className="px-10">Keep clients informed throughout the project. Regular updates and transparent communication help build trust and prevent misunderstandings. Be open to feedback and willing to make iterates. Flexibility shows that you value their input and are committed to delivering the best possible outcome.</p>
+        <p className="px-10">Having had a great successful journey so far and I extremely have gratitude for all my employers and their clients. Here are some of the websites/products I was involved with and I am sure it was a great success for them and for me.</p>
+        <p className="px-10 mt-5">Keeping clients informed throughout the project regular updates and transparent communication help build trust and prevent misunderstandings. Be open to feedback and willing to make iterates. Flexibility shows that you value their input and are committed to delivering the best possible outcome.</p>
       </div>
     </div>
     </FadeInSection>
