@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import Resume from './Resume';
 
 const Footer = (props) => {
   return (
@@ -16,7 +17,7 @@ const Footer = (props) => {
         </ul>
         <ul className="nav social flex justify-center items-center mt-5 md:mt-0">
           <li>
-            <a className="link" href="https://www.linkedin.com/in/peerashaik/" target="_blank" rel="noreferrer">Download - RESUME</a>
+            <Resume />
           </li>
           <li className="ms-2">
             <a href="https://www.facebook.com/peera.shaik" target="_blank" rel="noreferrer"><i className="bi bi-facebook"></i></a>
@@ -32,7 +33,7 @@ const Footer = (props) => {
       </div>
     </footer>
     <div className="copyright flex justify-center items-center py-5 text-sm text-gray-600">
-        © <span id='date'></span> Shaik's Web. All rights reserved.
+        © <span id='date' className="inline mx-2"></span> Shaik's Web. All rights reserved.
     </div>
     <NavLink to="#" className="back-to-top"><i className="bi bi-arrow-up-circle-fill"></i></NavLink>
     </>
