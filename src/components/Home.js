@@ -130,16 +130,16 @@ const Home = () => {
       <div className="container">
       <div className="grid md:grid-cols-3 md:gap-20">
         <div className="card shadow text-center my-4 md:my-10 p-10">
-            <h4>TARGET USERS</h4>
-            <p>Designing an interface with your target user in mind is crucial for creating a successful and engaging user experience. Mobile-first and mobile-friendly application development are essential strategies in today’s digital landscape. </p>
+            <h4>INTERACTION DESIGN</h4>
+            <p>Being familiar with best practices for interaction design between a user and the product significantly shapes the user experience.</p>
         </div>
         <div className="card shadow text-center my-4 md:my-10 p-10">
-            <h4>CLIENT SUCCESS</h4>
-            <p>Client success in user interface design is often achieved by focusing on several key principles and practices that ensure the final product meets user needs and business goals.</p>
+            <h4>USABILITY TESTING</h4>
+            <p>Observing users interactions across a digital product to identify user pain points, usability issues, and areas for user interface improvement.</p>
         </div>
         <div className="card shadow text-center my-4 md:my-10 p-10">
-            <h4>TEAM WORK</h4>
-            <p>Teamwork is essential in user interface design, as it brings together diverse skills and perspectives to create a cohesive and user-friendly product.</p>
+            <h4>PROBLEM SOLVING</h4>
+            <p>Having a deep understanding for the user behaviours, challenges, and the creativity to devise solutions that enhance their experience.</p>
         </div>
       </div>
       </div>
@@ -191,6 +191,7 @@ const Home = () => {
         <div className="grid md:grid-cols-2 md:gap-20">
         <div>
           <ul>
+            <li><i className="bi bi-record-circle-fill"></i><strong>Design Tools:</strong> Expertise to create a user interface designs using Adobe Creative Suite Photoshop and Illustrator, and Figma.</li>
             <li><i className="bi bi-record-circle-fill"></i><strong>HTML5 and XHTML:</strong> Adept at crafting semantic and accessible web pages, ensuring compatibility across devices and browsers.</li>
             <li><i className="bi bi-record-circle-fill"></i><strong>CSS3 (Less and Sass):</strong> Well-versed in using CSS preprocessors to create modular, maintainable stylesheets.</li>
             <li><i className="bi bi-record-circle-fill"></i><strong>Responsive Web Design:</strong> Committed to delivering responsive and mobile-friendly designs for optimal user experiences.</li>
