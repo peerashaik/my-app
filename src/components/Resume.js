@@ -1,17 +1,22 @@
-import React, {Component} from 'react';
+import React from "react";
 
-class Resume extends Component {
-    constructor(props) {
-        super(props);
-
-        this.state = {};
-    }
-
-    render() {
-        return (
-            <a id={'resume-pdf'} className="link" href={'./Senior-UI-Designer-Developer-PeeraShaik.pdf'} rel="noreferrer">Download - RESUME</a>
-        );
-    }
-}
+const Resume = () => {
+    const onButtonClick = () => {
+        const pdfUrl = "Sample.pdf";
+        const link = document.createElement("a");
+        link.href = pdfUrl;
+        link.download = "../Senior-UI-Designer-Developer-PeeraShaik.pdf"; // specify the filename
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
+    return (
+        <>
+            <a onClick={onButtonClick} className="link">
+                Download - RESUME
+            </a>
+        </>
+    );
+};
 
 export default Resume;
