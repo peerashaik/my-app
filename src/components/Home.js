@@ -209,6 +209,7 @@ const Home = () => {
             <li><i className="bi bi-record-circle-fill"></i><strong>Cross-Browser Compatibility:</strong> Ensuring seamless rendering across various browsers and devices.</li>
             <li><i className="bi bi-record-circle-fill"></i><strong>Design Tools:</strong> Adobe XD, Figma, Sketch, Photoshop, Illustrator.</li>
             <li><i className="bi bi-record-circle-fill"></i><strong>Programming Skills:</strong> HTML5, XHTML, XML, CSS3(Less & Sass), Tailwind CSS, Bootstrap, Responsive Web Design, Semantic UI, W3c Standards, PHP, mySQL, JavaScript, jQuery, React JS, WordPress UI, Magento2 UI, Shopify UI, October CMS.</li>
+            <li><i className="bi bi-record-circle-fill"></i><strong>Communication and Collaboration:</strong> I consider both negative and positive feedback towards the product success and I am sure a good communication and collaboration with all the team/stakeholders will result in a smooth function of successive products.</li>
           </ul>
         </div>
         </div>
