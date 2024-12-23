@@ -123,7 +123,7 @@ export const worksData = [{
   name: 'Faye',
   url: 'https://faye.in',
   image: 'faye',
-  title: 'Manufacturing of Kids Lifestyle Itesm Website Development',
+  title: 'Kids Lifestyle Store Website Development',
   theme: 'Designed and development of magento2 theme and modules',
   framework: 'Magetno2 UI'
 }, {
