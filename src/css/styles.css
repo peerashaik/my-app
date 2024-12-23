@@ -694,10 +694,6 @@ input[type="submit"] {
     right: -15%;
 }
 
-.my-work-list .img-wrapper:hover {
-    cursor: zoom-in;
-}
-
 .my-work-list .img-wrapper:hover i,
 .my-work-list .img-wrapper:focus i {
     border: 50px solid var(--black);
@@ -718,50 +714,16 @@ input[type="submit"] {
 }
 
 .my-work-list .item h2 {
-    color: var(--black);
-    display: inline-block;
-    font-size: 18px;
-}
-
-.my-work-list .item h2 a:hover {
     color: var(--white);
-    text-decoration: none;
+    display: inline-block;
+    font-family: 'heliosextregular';
+    font-size: 16px;
 }
 
-.my-work-list .item h2 a:before,
-.my-work-list .item h2 a:after {
-    content: '';
-    height: 5px;
-    width: 5px;
-    position: absolute;
-    opacity: 0;
-    -webkit-transition: all 0.35s ease;
-    transition: all 0.35s ease;
-}
-
-.my-work-list .item h2 a:before {
-    right: -15px;
-    top: 2px;
-    border-left: 3px solid var(--pink);
-    border-top: 3px solid var(--pink);
-    -webkit-transform: translate(100%, 50%);
-    transform: translate(100%, 50%);
-}
-
-.my-work-list .item h2 a:after {
-    right: -20px;
-    bottom: 2px;
-    border-right: 3px solid var(--pink);
-    border-bottom: 3px solid var(--pink);
-    -webkit-transform: translate(-100%, -50%);
-    transform: translate(-100%, -50%);
-}
-
-.my-work-list .item h2 a:hover:before,
-.my-work-list .item h2 a:hover:after {
-    -webkit-transform: translate(0%, 0%);
-    transform: translate(0%, 0%);
-    opacity: 1;
+.my-work-list .item span {
+    border-radius: 15px;
+    font-size: 12px;
+    padding: 5px 20px;
 }
 
 /* employer list*/
@@ -862,10 +824,6 @@ input[type="submit"] {
 @media (min-width: 768px) {
     .content-heading:before {
         display: block;
-    }
-
-    .my-work-list .item h2 {
-        font-size: 22px;
     }
 
     .my-work-list .item:nth-child(odd) {
