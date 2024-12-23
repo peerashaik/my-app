@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-app/static/css/main.7b13d872.css",
-    "main.js": "/my-app/static/js/main.5974b046.js",
+    "main.js": "/my-app/static/js/main.d52c70ec.js",
     "static/media/vita4you.png": "/my-app/static/media/vita4you.b49c66726b6ef46a1d76.png",
     "static/media/hero-banner1.jpg": "/my-app/static/media/hero-banner1.5a8b88489e5a0b8194ca.jpg",
     "static/media/hero-banner5.jpg": "/my-app/static/media/hero-banner5.622008656a089d82d8df.jpg",
@@ -14,10 +14,10 @@
     "static/media/heliosext-bold.woff2": "/my-app/static/media/heliosext-bold.a3e735bb5a41278580d8.woff2",
     "index.html": "/my-app/index.html",
     "main.7b13d872.css.map": "/my-app/static/css/main.7b13d872.css.map",
-    "main.5974b046.js.map": "/my-app/static/js/main.5974b046.js.map"
+    "main.d52c70ec.js.map": "/my-app/static/js/main.d52c70ec.js.map"
   },
   "entrypoints": [
     "static/css/main.7b13d872.css",
-    "static/js/main.5974b046.js"
+    "static/js/main.d52c70ec.js"
   ]
 }
