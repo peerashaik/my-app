@@ -4,7 +4,7 @@ export const worksData = [{
   url: 'https://vita4you.gr',
   image: 'vita4you',
   title: 'Health Care Product Redesign and Customization',
-  theme: 'A complete new design integration of a ecommerce application',
+  theme: 'A complete new design integration of an ecommerce application',
   framework: 'Magetno2 UI'
 }, {
   id: 1,
@@ -36,7 +36,7 @@ export const worksData = [{
   url: 'https://hardwinsoftware.com',
   image: 'hardwin',
   title: 'IT Services WebDesign and Development',
-  theme: 'Designed and developed custom wesite for it services company',
+  theme: 'Designed and developed custom website for it services company',
   framework: 'Custom HTML',
 }, {
   id: 5,
@@ -51,7 +51,7 @@ export const worksData = [{
   name: 'Camlab',
   url: 'https://camlab.co.uk',
   image: 'camlab',
-  title: 'Hospital Equipments Website Design and Development',
+  title: 'Hospital Equipements Website Design and Development',
   theme: 'Part of customization and development of magento2 modules',
   framework: 'Magetno2 UI'
 }, {
@@ -68,7 +68,7 @@ export const worksData = [{
   url: 'https://exercise.co.uk',
   image: 'exercise',
   title: 'Healthier Lifestyle, Customization of Magetno2 Theme',
-  theme: 'Involved to customise the theme and the modules as per customer needs.',
+  theme: 'Involved to customize the theme and the modules as per customer needs.',
   framework: 'Magetno2 UI'
 }, {
   id: 9,
@@ -115,7 +115,7 @@ export const worksData = [{
   name: 'Corporatecaresolutions',
   url: 'https://www.corporatecaresolutions.com/',
   image: 'corporatecare',
-  title: 'Corporate Students Informative web Application',
+  title: 'Corporate Students Informative Web Application',
   theme: 'Designed and developed Wordpress web application',
   framework: 'Wordpress UI'
 }, {
